@@ -40,7 +40,7 @@ function caricaDatiDaLocalStorage() {
 }
 
 // Funzione principale per gestire i post
-async function gestisciPosts() {
+async function stampaPostInConsole() {
   // Prova a caricare i dati dal localStorage
   let posts = caricaDatiDaLocalStorage();
 
@@ -58,4 +58,4 @@ async function gestisciPosts() {
 }
 
 // Esegui la funzione principale
-gestisciPosts();
+stampaPostInConsole();
